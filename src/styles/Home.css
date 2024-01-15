@@ -1,0 +1,30 @@
+/* src/styles/Home.css */
+.home-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('../assets/2023SkyDesktopForest.jpg') center/cover no-repeat; /* Reemplaza 'tu-imagen.jpg' con la ruta correcta de tu imagen */
+}
+
+.text-container {
+  text-align: center;
+  color: #fff;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1.5rem;
+  opacity: 0; /* Inicialmente oculta la descripción */
+  animation: fadeIn 2s forwards; /* Animación de fade-in durante 2 segundos */
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
