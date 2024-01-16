@@ -2,7 +2,7 @@
 import React from 'react';
 import { Container, } from 'react-bootstrap';
 import information from './information';
-//import '../styles/Home.css';
+import '../styles/Home.css';
 const Home = ({ language }) => {
   const { home } = information[language];
   return (

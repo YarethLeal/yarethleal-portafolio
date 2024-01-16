@@ -7,7 +7,6 @@ import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import { useState } from 'react';
-import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 function App() {
   const [language, setLanguage] = useState('es');
 
@@ -16,21 +15,11 @@ function App() {
   };
   return (
     <div className="App">
-      <NavbarComponent onLanguageChange={toggleLanguage} currentLanguage={language} />
-      <Parallax pages={4} style={{ top: '0', left: '0' }}>
-        <ParallaxLayer offset={0} speed={2.5}>
-          <Home language={language} />
-        </ParallaxLayer>
-        <ParallaxLayer offset={1} speed={2.5}>
-          <AboutMe language={language} />
-        </ParallaxLayer>
-        <ParallaxLayer offset={2} speed={2.5}>
-          <Skills language={language} />
-        </ParallaxLayer>
-        <ParallaxLayer offset={3} speed={2.5}>
-          <Projects language={language} />
-        </ParallaxLayer>
-      </Parallax>
+      <NavbarComponent onLanguageChange={toggleLanguage} currentLanguage={language}/>
+      <Home language={language}/>
+      <AboutMe language={language}/>
+      <Skills language={language}/>
+      <Projects language={language}/>
     </div>
   );
 }
