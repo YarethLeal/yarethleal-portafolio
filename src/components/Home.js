@@ -6,7 +6,7 @@ import '../styles/Home.css';
 const Home = ({ language }) => {
   const { home } = information[language];
   return (
-    <section className="home-section" id="home">
+    <section className="home-section">
       <Container className="p-5">
         <h1 className="title">{home.title}</h1>
         <p className="description">{home.description}</p>

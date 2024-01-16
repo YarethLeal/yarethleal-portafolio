@@ -17,10 +17,10 @@ const NavbarComponent = ({ onLanguageChange, currentLanguage }) => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#sobre-mi">{navbar.sobreMi}</Nav.Link>
+            <Nav.Link href="#aboutMe">{navbar.sobreMi}</Nav.Link>
             <Nav.Link href="#skills">{navbar.skills}</Nav.Link>
-            <Nav.Link href="#proyectos">{navbar.proyectos}</Nav.Link>
-            <Nav.Link href="#contacto">{navbar.contacto}</Nav.Link>
+            <Nav.Link href="#projects">{navbar.proyectos}</Nav.Link>
+            <Nav.Link href="#contact">{navbar.contacto}</Nav.Link>
           </Nav>
           <Nav>
             <NavDropdown menuVariant="dark" id="nav-dropdown" title={currentLanguage === 'es' ? 'ES' : 'EN'} onSelect={onLanguageChange}>
