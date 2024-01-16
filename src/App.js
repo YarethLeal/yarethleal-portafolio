@@ -15,11 +15,11 @@ function App() {
   };
   return (
     <div className="App">
-      <NavbarComponent onLanguageChange={toggleLanguage} currentLanguage={language}/>
-      <Home language={language}/>
-      <AboutMe language={language}/>
-      <Skills language={language}/>
-      <Projects language={language}/>
+      <NavbarComponent onLanguageChange={toggleLanguage} currentLanguage={language} />
+      <Home language={language} />
+      <AboutMe language={language} />
+      <Skills language={language} />
+      <Projects language={language} />
     </div>
   );
 }
