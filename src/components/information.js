@@ -12,7 +12,7 @@ const information = {
         title: 'Mi Portafolio',
         description: 'Bienvenido a mi portafolio animado. Aquí puedes conocer más sobre mí y mis proyectos.',
       },
-      sobreMi: {
+      aboutMe: {
         title: 'Sobre Mí',
         content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...',
       },
@@ -20,7 +20,7 @@ const information = {
         title: 'Skills',
         content: 'Mis habilidades incluyen...',
       },
-      proyectos: {
+      projects: {
         title: 'Proyectos',
         content: 'Algunos de mis proyectos son...',
       },
@@ -42,7 +42,7 @@ const information = {
             title: 'My Portfolio',
             description: 'Welcome to my animate portfolio. Here you can learn more about me and my projects',
           },
-          sobreMi: {
+          aboutMe: {
             title: 'About me',
             content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...',
           },
@@ -50,7 +50,7 @@ const information = {
             title: 'Skills',
             content: 'Mis habilidades incluyen...',
           },
-          proyectos: {
+          projects: {
             title: 'Proyectos',
             content: 'Algunos de mis proyectos son...',
           },
