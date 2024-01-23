@@ -19,6 +19,72 @@ const information = {
     skills: {
       title: 'Skills',
       content: 'Mis habilidades incluyen...',
+      badges: [
+        {
+          Src: 'https://img.icons8.com/color/96/000000/html-5--v1.png',
+          Alt: 'Html Icon',
+        },
+        {
+          Src: 'https://img.icons8.com/color/96/000000/css3.png',
+          Alt: 'CSS Icon',
+        },
+        {
+          Src: 'https://img.icons8.com/color/96/000000/javascript--v1.png',
+          Alt: 'JavaScript Icon',
+        },
+        {
+          Src: 'https://img.icons8.com/color/96/000000/react-native.png',
+          Alt: 'React Icon',
+        },
+        {
+          Src: 'https://img.icons8.com/color/96/000000/bootstrap.png',
+          Alt: 'Boostrap Icon',
+        },
+        {
+          Src: 'https://img.icons8.com/color/96/000000/angularjs.png',
+          Angular: 'Angular Icon',
+        },
+        {
+          Src: 'https://img.icons8.com/color/96/000000/python--v1.png',
+          Alt: 'Python Icon',
+        },
+        {
+          Src: 'https://img.icons8.com/color/96/000000/php.png',
+          Alt: 'PHP Icon',
+        },
+        {
+          Src: 'https://img.icons8.com/color/96/000000/c-sharp-logo.png',
+          Alt: 'C# Icon',
+        },
+        {
+          Src: 'https://img.icons8.com/color/96/000000/net-framework.png',
+          Alt: '.Net Icon',
+        },
+        {
+          Src: 'https://img.icons8.com/color/96/000000/c-sharp-logo.png',
+          Alt: 'ASP.NET Icon',
+        },
+        {
+          Src: 'https://img.icons8.com/color/96/000000/mysql-logo.png',
+          Alt: 'MySQL Icon',
+        },
+        {
+          Src: 'https://img.icons8.com/color/96/000000/postgreesql.png',
+          Alt: 'PostgreSQL Icon',
+        },
+        {
+          Src: 'https://img.icons8.com/color/96/000000/microsoft-sql-server.png',
+          Alt: 'Microsoft SQL Server Icon',
+        },
+        {
+          Src: 'https://img.icons8.com/color/96/000000/git.png',
+          Alt: 'Git Icon',
+        },
+        {
+          Src: 'https://img.icons8.com/color/96/000000/github.png',
+          Alt: 'GitHub Icon',
+        },
+      ],
     },
     projects: {
       title: 'Proyectos',
@@ -49,6 +115,72 @@ const information = {
     skills: {
       title: 'Skills',
       content: 'Mis habilidades incluyen...',
+      badges: [
+        {
+          Src: 'https://img.icons8.com/color/96/000000/html-5--v1.png',
+          Alt: 'Html Icon',
+        },
+        {
+          Src: 'https://img.icons8.com/color/96/000000/css3.png',
+          Alt: 'CSS Icon',
+        },
+        {
+          Src: 'https://img.icons8.com/color/96/000000/javascript--v1.png',
+          Alt: 'JavaScript Icon',
+        },
+        {
+          Src: 'https://img.icons8.com/color/96/000000/react-native.png',
+          Alt: 'React Icon',
+        },
+        {
+          Src: 'https://img.icons8.com/color/96/000000/bootstrap.png',
+          Alt: 'Boostrap Icon',
+        },
+        {
+          Src: 'https://img.icons8.com/color/96/000000/angularjs.png',
+          Angular: 'Angular Icon',
+        },
+        {
+          Src: 'https://img.icons8.com/color/96/000000/python--v1.png',
+          Alt: 'Python Icon',
+        },
+        {
+          Src: 'https://img.icons8.com/color/96/000000/php.png',
+          Alt: 'PHP Icon',
+        },
+        {
+          Src: 'https://img.icons8.com/color/96/000000/c-sharp-logo.png',
+          Alt: 'C# Icon',
+        },
+        {
+          Src: 'https://img.icons8.com/color/96/000000/net-framework.png',
+          Alt: '.Net Icon',
+        },
+        {
+          Src: 'https://img.icons8.com/color/96/000000/c-sharp-logo.png',
+          Alt: 'ASP.NET Icon',
+        },
+        {
+          Src: 'https://img.icons8.com/color/96/000000/mysql-logo.png',
+          Alt: 'MySQL Icon',
+        },
+        {
+          Src: 'https://img.icons8.com/color/96/000000/postgreesql.png',
+          Alt: 'PostgreSQL Icon',
+        },
+        {
+          Src: 'https://img.icons8.com/color/96/000000/microsoft-sql-server.png',
+          Alt: 'Microsoft SQL Server Icon',
+        },
+        {
+          Src: 'https://img.icons8.com/color/96/000000/git.png',
+          Alt: 'Git Icon',
+        },
+        {
+          Src: 'https://img.icons8.com/color/96/000000/github.png',
+          Alt: 'GitHub Icon',
+        },
+      ],
     },
     projects: {
       title: 'Proyectos',
