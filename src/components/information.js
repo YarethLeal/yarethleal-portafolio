@@ -89,6 +89,20 @@ const information = {
     projects: {
       title: 'Proyectos',
       content: 'Algunos de mis proyectos son...',
+      project: [
+        {
+          name: 'Proyecto 1',
+          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...',
+          image: 'https://picsum.photos/200/300',
+          github: '',
+        },
+        {
+          name: 'Proyecto 2',
+          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...',
+          image: 'https://picsum.photos/200/300',
+          github: '',
+        },
+      ],
     },
     contacto: {
       title: 'Contacto',
