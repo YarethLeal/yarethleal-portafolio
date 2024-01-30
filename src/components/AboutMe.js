@@ -5,7 +5,7 @@ import information from './information';
 const AboutMe = ({ language }) => {
   const { aboutMe } = information[language];
   return (
-    <section className="home-section" id="home">
+    <section className="aboutMe-section" id="aboutMe">
       <Container className="p-5">
         <h1 className="title">{aboutMe.title}</h1>
         <p className="description">{aboutMe.content}</p>

@@ -128,7 +128,7 @@ const information = {
     },
     skills: {
       title: 'Skills',
-      content: 'Mis habilidades incluyen...',
+      content: 'Mis skills include...',
       badges: [
         {
           Src: 'https://img.icons8.com/color/96/000000/html-5--v1.png',
@@ -197,11 +197,25 @@ const information = {
       ],
     },
     projects: {
-      title: 'Proyectos',
+      title: 'Projects',
       content: 'Algunos de mis proyectos son...',
+      project: [
+        {
+          name: 'Proyecto 1',
+          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...',
+          image: 'https://picsum.photos/200/300',
+          github: '',
+        },
+        {
+          name: 'Proyecto 2',
+          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. EN...',
+          image: 'https://picsum.photos/200/300',
+          github: '',
+        },
+      ],
     },
     contacto: {
-      title: 'Contacto',
+      title: 'Contact',
       content: 'Puedes contactarme en...',
     },
   },
